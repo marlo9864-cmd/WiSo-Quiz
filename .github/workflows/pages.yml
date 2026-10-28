@@ -29,7 +29,11 @@ jobs:
       - name: Fragen, Skripte und Offline-Liste prüfen
         run: node tests/pruefe-fragen.mjs
 
+      # enablement schaltet GitHub Pages beim ersten Lauf selbst ein,
+      # sodass niemand die Einstellung von Hand setzen muss.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -274,12 +274,14 @@ tools/icons_erstellen.py      erzeugt die App-Icons
 .github/workflows/pages.yml   Veröffentlichung bei jedem Push auf main
 ```
 
-## GitHub einrichten (einmalig)
+## GitHub einrichten
 
-Unter *Settings → Pages* als Source **„GitHub Actions“** wählen. Danach veröffentlicht jeder Push auf
-`main` das Quiz automatisch; der Reiter **Actions** zeigt den Fortschritt. Schlägt der allererste Lauf
-fehl, weil Pages noch nicht eingeschaltet war: Pages einschalten und im Reiter Actions den Lauf mit
-„Re-run all jobs“ wiederholen.
+Nichts zu tun: Der Workflow schaltet GitHub Pages beim ersten Lauf selbst ein
+(`actions/configure-pages` mit `enablement: true`) und setzt die Source auf **GitHub Actions**. Jeder
+Push auf `main` veröffentlicht das Quiz automatisch; der Reiter **Actions** zeigt den Fortschritt.
+
+Sollte das Einschalten einmal fehlschlagen, geht es auch von Hand: unter *Settings → Pages* als Source
+**„GitHub Actions”** wählen und im Reiter Actions den Lauf mit „Re-run all jobs” wiederholen.
 
 ## Quelle
 
