@@ -1,0 +1,11 @@
+# Originalunterlagen (Folien, Skripte, Arbeitsblätter) bleiben privat –
+# das Repository ist öffentlich.
+quellen/
+*.pdf
+!web/WiSo_Fragen_mit_Loesungsblatt.pdf
+
+# Arbeitsdateien
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
