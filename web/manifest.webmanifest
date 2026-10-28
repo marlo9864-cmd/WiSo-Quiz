@@ -3,7 +3,7 @@
   "short_name": "WiSo",
   "description": "Wirtschafts- und Sozialkunde als Quiz – praxisbezogene Aufgaben wie in der IHK-Prüfung, offline nutzbar.",
   "lang": "de",
-  "id": "/wiso-quiz/",
+  "id": "/WiSo-Quiz/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

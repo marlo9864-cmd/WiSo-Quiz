@@ -6,7 +6,7 @@ WiSo der IHK-Abschlussprüfung Teil 2. Wie in der Prüfung können mehrere Antwo
 jeder Frage kommen Lösung und Begründung mit Rechtsgrundlage. Das Quiz läuft komplett im Browser,
 auch ohne Internet.
 
-**Adresse:** https://marlo9864-cmd.github.io/wiso-quiz/
+**Adresse:** https://marlo9864-cmd.github.io/WiSo-Quiz/
 
 **Stand der Inhalte:** 10/2026
 
